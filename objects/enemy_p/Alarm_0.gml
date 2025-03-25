@@ -1,4 +1,4 @@
-if instance_exists(Player) && distance_to_object(Player) < disttoplayer)
+if instance_exists(Player) && distance_to_object(Player) < disttoplayer
 {
     target_x = Player.x;
     target_y = Player.y;

@@ -37,7 +37,6 @@
   "name":"Informatica Eindproject 1",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"dialog","path":"objects/dialog/dialog.yy",},},
     {"id":{"name":"enemy_p","path":"objects/enemy_p/enemy_p.yy",},},
     {"id":{"name":"enemy1","path":"objects/enemy1/enemy1.yy",},},
