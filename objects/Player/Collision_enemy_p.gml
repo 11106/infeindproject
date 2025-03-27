@@ -6,6 +6,9 @@ if (alarm[0] < 0)
     
     if (hp <= 0)
     {
+        //draw_sprite_stretched(spr_box, 0, _dx, _dy, _guiw, _guih);
+        //exit;
         room_restart();
+        //deathscreen();
     }
 }

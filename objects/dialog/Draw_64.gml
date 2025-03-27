@@ -5,8 +5,8 @@ var _boxh = gui_h - _dy;
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _boxw, _boxh);
 
-_dx += 128;
-_dy += 16;
+_dx += gui_w * 0.1;
+_dy += gui_h * 0.03;
 
 draw_set_font(Font1)
 
