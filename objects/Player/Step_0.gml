@@ -1,15 +1,6 @@
 if (instance_exists(dialog)) exit;
 
-if (keyboard_check_pressed(vk_alt)) 
-{
-    
-    create_dialog([
-    {
-        name: "Test dialogue",
-        msg: "Hi its me i am here!"
-    }
-    ])
-}
+
 
 
 
