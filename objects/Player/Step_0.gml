@@ -6,7 +6,7 @@ if (keyboard_check_pressed(vk_alt))
     create_dialog([
     {
         name: "Test dialogue",
-        msg: "Hi its me iam here!"
+        msg: "Hi its me i am here!"
     }
     ])
 }
@@ -36,7 +36,13 @@ else {
 
 if (keyboard_check_pressed(vk_space))
 {
-    var _inst = instance_create_depth(x, y, depth, attack);
-    _inst.image_angle = facing;
-    _inst.damage *= damage;
+    if (instance_exists(attack)) 
+    {
+        return; 
+    }
+    else {
+        var _inst = instance_create_depth(x, y, depth, attack);
+            _inst.image_angle = facing;
+            _inst.damage *= damage;
+    }
 }

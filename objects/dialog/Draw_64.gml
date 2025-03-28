@@ -5,7 +5,7 @@ var _boxh = gui_h - _dy;
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _boxw, _boxh);
 
-_dx += gui_w * 0.1;
+_dx += gui_w * 0.49;
 _dy += gui_h * 0.03;
 
 draw_set_font(Font1)
@@ -17,4 +17,4 @@ draw_set_color(c_white)
 
 _dy += 40;
 
-draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
+draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 1.1);
